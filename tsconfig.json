@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "skipLibCheck": true,
+        "strictPropertyInitialization": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "typeRoots": ["src/globals.d.ts"]
+    },
+    "ts-node": {
+        "files": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules", "**/*.test.ts"]
+}
